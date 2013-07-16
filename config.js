@@ -14,7 +14,7 @@ exports.config = {
   site_headers: [
     '<meta name="author" content="EDP@TAOBAO" />',
   ],
-  host: 'jishen365.com',
+  host: 'www.jishen365.com',
   site_logo: '', // default is `name`
   site_navs: [
     // [ path, title, [target=''] ],
