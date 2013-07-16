@@ -81,8 +81,8 @@ exports.config = {
   mail_opts: {
     service: "Gmail",
     auth: {
-      user: "philipp.xue@gmail.com",
-      pass: "h1r1e5!#m@"
+      user: "jishen365@gmail.com",
+      pass: "god#^%online"
     }
   },
 

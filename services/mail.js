@@ -4,8 +4,8 @@ var marked = require('marked-prettyprint');
 
 var transport = mailer.createTransport('SMTP', config.mail_opts);
 
-var SITE_ROOT_URL = 'http://' + config.hostname + (config.port !== 80 ? ':' + config.port : '');
-
+//var SITE_ROOT_URL = 'http://' + config.hostname + (config.port !== 80 ? ':' + config.port : '');
+var SITE_ROOT_URL = 'http://' + config.hostname;
 /**
  * Send an email
  * @param {Object} data 邮件对象
