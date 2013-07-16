@@ -5,7 +5,7 @@
 var path = require('path');
 
 exports.config = {
-  debug: true,
+  debug: false,
   name: '机神在线',
   description: '机神在线',
   version: '0.2.2',
@@ -25,7 +25,7 @@ exports.config = {
   site_static_host: '', // 静态文件存储域名
   mini_assets: false, // 静态文件的合并压缩，详见视图中的Loader
   site_enable_search_preview: false, // 开启google search preview
-  site_google_search_domain:  'cnodejs.org',  // google search preview中要搜索的域名
+  site_google_search_domain:  'jishen365.com',  // google search preview中要搜索的域名
 
   upload_dir: path.join(__dirname, 'public', 'user_data', 'images'),
 
@@ -43,7 +43,7 @@ exports.config = {
   // RSS
   rss: {
     title: '机神：卖好玩的电子产品',
-    link: 'http://cnodejs.org',
+    link: 'http://jishen365.com',
     language: 'zh-cn',
     description: '机神：专注于好机器',
 
@@ -54,20 +54,12 @@ exports.config = {
   // site links
   site_links: [
     {
-      'text': 'Node 官方网站',
-      'url': 'http://nodejs.org/'
+      'text': '京东',
+      'url': 'http://jd.com'
     },
     {
-      'text': 'Node Party',
-      'url': 'http://party.cnodejs.net/'
-    },
-    {
-      'text': 'Node 入门',
-      'url': 'http://nodebeginner.org/index-zh-cn.html'
-    },
-    {
-      'text': 'Node 中文文档',
-      'url': 'http://docs.cnodejs.net/cman/'
+      'text': '易迅',
+      'url': 'http://51buy.com'
     }
   ],
 
@@ -79,11 +71,6 @@ exports.config = {
       'text': ''
     },
     {
-      'url': 'http://ruby-china.org/?utm_source=nodejs&utm_medium=link&utm_campaign=upyun&md=nodejs',
-      'image': 'http://site-cnode.b0.upaiyun.com/images/ruby_china_logo.png',
-      'text': ''
-    },
-    {
       'url': 'http://adc.taobao.com/',
       'image': 'http://adc.taobao.com/bundles/devcarnival/images/d2_180x250.jpg',
       'text': ''
@@ -92,11 +79,10 @@ exports.config = {
 
   // mail SMTP
   mail_opts: {
-    host: 'smtp.126.com',
-    port: 25,
+    service: "Gmail",
     auth: {
-      user: 'club@126.com',
-      pass: 'club'
+      user: "philipp.xue@gmail.com",
+      pass: "h1r1e5!#m@"
     }
   },
 

@@ -38,7 +38,7 @@ exports.index = function (req, res, next) {
         recent_topics: recent_topics,
         recent_replies: recent_replies,
         relation: relation,
-        token: token,
+        token: token
       });
     };
 
