@@ -20,12 +20,16 @@ var sendMail = function (data) {
   }
   // 遍历邮件数组，发送每一封邮件，如果有发送失败的，就再压入数组，同时触发mailEvent事件
   transport.sendMail(data, function (err) {
-    if(err){
-      console.log(err);
-      throw err;
-    }else{
-      console.log("Message sent:");
+    try {
+      if(err){
+        throw err;
+      }else{
+        console.log("Message sent:");
+      }
+    } catch (e) {
+      console.log(e);
     }
+
   });
 };
 
